@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Reservation</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="E:\CIS 487\css\style.css" />
+</head>
+
+<body>
+	<h1>Hotel</h1>
+	<header  class = "menuBar">		
+		<nav>
+			<ul>
+			<li><a href="index.html">Home</a></li>
+			<li class="active"><a href="reservation.html">Reservation</a></li>
+			<li><a href="contact_us.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<br>
+	<h1>Book A Room</h1>
+	
+<div class="reservationbox">
+	<p><label>Start Date:</label>
+	<form runat="server">
+		<asp:Calendar runat="server" />
+	</form></p>
+	
+	<p><label>End Date:</label>
+	<form runat="server">
+		<asp:Calendar runat="server" />
+	</form></p>
+	
+	<form method="post">
+		<p><label>Number of Beds:</label>
+		<select name="beds">
+			<option selected>1 Queen Bed</option>
+			<option>2 Queen Beds</option>
+			<option>1 King Bed</option>
+			<option>2 King Beds</option>
+		</select></p>
+		
+		<p><label>Non-smoking:</label>
+		<input name="nonsmoking" type="checkbox" value="Non-smoking"></p>
+		
+		<p><label>Oceanfront:</label>
+		<input name="oceanfront" type="checkbox" value="Oceanfront"></p>
+		
+		<p>
+		<input type="submit" value="Find A Room">
+		<p>
+	</form>
+</div>
+	
+	
+	
+</body>
+
+</html>
