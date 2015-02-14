@@ -1,0 +1,132 @@
+CREATE DATABASE Hotel1
+
+CREATE TABLE Account(
+AccountNumber INT NOT NULL AUTO_INCREMENT,
+AccountBalance DECIMAL,
+PaymentType VARCHAR(40), 
+CreditCardNumber VARCHAR(20),
+CustomerID INT, 
+CONSTRAINT Account_PK PRIMARY KEY(AccountNumber)
+CONSTRAINT Account_FK FOREIGN KEY(CustomerID) REFERENCES Customer(CustomerID)
+);
+
+
+CREATE TABLE Customer(
+CustomerID INT NOT NULL AUTO_INCREMENT,
+FirstName VARCHAR(35) NOT NULL,
+LastName VARCHAR(35) NOT NULL,
+Street VARCHAR(50), 
+City VARCHAR(35),
+State VARCHAR(2),
+Zip VARCHAR(5),
+Phone VARCHAR(12),
+CONSTRAINT Customer_PK PRIMARY KEY(CustomerID)
+);
+
+
+CREATE TABLE Transaction(
+TransactionID INT NOT NULL AUTO_INCREMENT,
+CustomerID INT NOT NULL,
+RoomID INT NOT NULL,
+ManagerID INT NOT NULL,
+AccountNumber INT NOT NULL,
+TransactionDate DATE NOT NULL, 
+Amount DECIMAL NOT NULL,
+CONSTRAINT Transaction_PK PRIMARY KEY(TransactionID),
+CONSTRAINT Transaction_FK FOREIGN KEY(CustomerID) REFERENCES Customer(CustomerID),
+CONSTRAINT Transaction_FK FOREIGN KEY(RoomID) REFERENCES Books(RoomID),
+CONSTRAINT Transaction_FK FOREIGN KEY(ManagerID) REFERENCES Manager(ManagerID),
+CONSTRAINT Transaction_FK FOREIGN KEY(AccountNumber) REFERENCES Account(AccountNumber)
+);
+
+CREATE TABLE Manager(
+ManagerID INT NOT NULL AUTO_INCREMENT,
+FirstName VARCHAR(50) NOT NULL,
+LastName VARCHAR(50) NOT NULL,
+Street VARCHAR(50), 
+City VARCHAR(50), 
+State VARCHAR(2),
+Zip VARCHAR(5),
+DateHired DATE,
+Wage DECIMAL NOT NULL,
+Phone VARCHAR(12),
+SSNumber VARCHAR(11),
+CONSTRAINT Manager_PK PRIMARY KEY(ManagerID)
+);
+
+CREATE TABLE Staff(
+StaffID INT NOT NULL AUTO_INCREMENT,
+FirstName VARCHAR(50) NOT NULL,
+LastName VARCHAR(50) NOT NULL,
+Street VARCHAR(50), 
+City VARCHAR(50), 
+State VARCHAR(2),
+Zip VARCHAR(5),
+DateHired DATE,
+Wage DECIMAL NOT NULL,
+Phone VARCHAR(12),
+SSNumber VARCHAR(11),
+ManagerID INT,
+CONSTRAINT Staff_PK PRIMARY KEY(StaffID)
+CONSTRAINT Manager_FK FOREIGN KEY(ManagerID) REFERENCES Manager(ManagerID)
+);
+
+
+
+);
+
+CREATE TABLE Room(
+RoomID INT NOT NULL, 
+RoomName VARCHAR(60) NOT NULL, 
+RoomFloor INT NOT NULL,
+Smoking BOOL NOT NULL,
+OceanView BOOL NOT NULL,
+Description VARCHAR(70),
+Price DECIMAL NOT NULL,
+CONSTRAINT Books_PK PRIMARY KEY(RoomID)
+);
+
+
+
+INSERT INTO Account(AccountBalance, PaymentType, CreditCardNumber) VALUES
+(50, 'Credit', '1234502938472394'),
+(18, 'Debit', '0239824712637242'), 
+(15, 'Debit', '0238491242852932'),
+(12, 'Debit', '8272174024712074'),
+(150, 'Credit', '2980318421482172'),
+(75, 'Debit', '6328314721329327'),
+(200, 'Debit', '231421942129494'),
+(150, 'Credit', '9213912480234223');
+
+
+INSERT INTO Manager(FirstName, LastName, Street, City, Zip, DateHired, Wage, Phone, SSNumber)(
+('Hans','Vomend','800 Westwood Street','Hagerstown','MD','12523','10/7/2014',20,'204-214-2134','82934120324'),
+('Jessica','Poffenberger','200 Queen Street','Martinsburg','WV','24124','9/7/2014',50,'932-424-1232','91488273152'),
+('Xena','Warrior','233 Warrior Street','Queensville','TX','23142','10/2/2014',50,'231-523-1245','91239521231'),
+('Charmander','Catchem','132 Professor Street','Vertania City','MD','81234','10/2/2014',23,'214-152-1352','1255914201341'),
+('Monkey','Luffy','100 Water Street','Port City','CA','21734','6/8/2014',6,'142-142-5241','92304215192'),
+('Son','Goku','231 Dragon Street','Factory Town','MD','25822','11/6/2014',5,'562-321-2145','19234285234'),
+('Naruto','Uzumaki','327 Fighter Road','Dream City','WA','21345','11/6/2013,5,'923-145-1235','02310145231'),
+('Vegeta','Sayajin','293 Robinwood Street','Planet Town','VA','31252','4/21/1997',12,'142-415-2135','24915204911');
+)
+
+INSERT INTO Customer(FirstName, LastName, Street, City, State, Zip, Phone) values
+('Jessica','Poffenberger','800 King Street','Shepherdstown','WV','21842','304-211-2144'),
+('Hans','Vomend','700 Queen Street','Shepherdstown','WV','21842','304-212-4213'),
+('Niccolo','Machiavelli','600 Prince Street','Florence','MD','21740','301-232-2141'),
+('Jorge','Bergolio','500 Pope Street','Buenos Aires','NM','84212','403-231-4212'),
+('Clark','Kent','400 Superman Street','Krypton','NC','91321','345-213-2134'),
+('Ash','Ketchum','300 Pikachu','Pallet Town','MN','24212','823-123-1234'),
+('Zelda','Royal','200 Palace Street','Hyrule','CO','13421','231-521-1237'),
+('Nagisa','Furukawa','100 Sakura','Tokyo','NY','21423','983-231-2145');
+
+INSERT INTO Transaction(TransactionDate, Amount) values
+('10/1/2015’, 700),
+('10/3/2015’, 500),
+('10/4/2015’, 100),
+('10/4/2015’, 300),
+('10/2/2015’, 1024),
+('10/1/2015’, 1000),
+('10/2/2015’, 400),
+('10/8/2015’, 200);
+
