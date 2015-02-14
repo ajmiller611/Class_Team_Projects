@@ -1,4 +1,6 @@
-CREATE DATABASE Hotel1
+﻿CREATE DATABASE Hotel1
+
+
 
 CREATE TABLE Account(
 AccountNumber INT NOT NULL AUTO_INCREMENT,
@@ -7,8 +9,10 @@ PaymentType VARCHAR(40),
 CreditCardNumber VARCHAR(20),
 CustomerID INT, 
 CONSTRAINT Account_PK PRIMARY KEY(AccountNumber)
-CONSTRAINT Account_FK FOREIGN KEY(CustomerID) REFERENCES Customer(CustomerID)
+CONSTRAINT Account_FK FOREIGN KEY,(CustomerID) REFERENCES Customer(CustomerID)
 );
+
+
 
 
 CREATE TABLE Customer(
@@ -24,6 +28,8 @@ CONSTRAINT Customer_PK PRIMARY KEY(CustomerID)
 );
 
 
+
+
 CREATE TABLE Transaction(
 TransactionID INT NOT NULL AUTO_INCREMENT,
 CustomerID INT NOT NULL,
@@ -33,11 +39,13 @@ AccountNumber INT NOT NULL,
 TransactionDate DATE NOT NULL, 
 Amount DECIMAL NOT NULL,
 CONSTRAINT Transaction_PK PRIMARY KEY(TransactionID),
-CONSTRAINT Transaction_FK FOREIGN KEY(CustomerID) REFERENCES Customer(CustomerID),
-CONSTRAINT Transaction_FK FOREIGN KEY(RoomID) REFERENCES Books(RoomID),
-CONSTRAINT Transaction_FK FOREIGN KEY(ManagerID) REFERENCES Manager(ManagerID),
-CONSTRAINT Transaction_FK FOREIGN KEY(AccountNumber) REFERENCES Account(AccountNumber)
+CONSTRAINT Transaction_FK1 FOREIGN KEY(CustomerID) REFERENCES Customer(CustomerID),
+CONSTRAINT Transaction_FK2 FOREIGN KEY(RoomID) REFERENCES Room(RoomID),
+CONSTRAINT Transaction_FK3 FOREIGN KEY(ManagerID) REFERENCES Manager(ManagerID),
+CONSTRAINT Transaction_FK4 FOREIGN KEY(AccountNumber) REFERENCES Account(AccountNumber)
 );
+
+
 
 CREATE TABLE Manager(
 ManagerID INT NOT NULL AUTO_INCREMENT,
@@ -53,6 +61,8 @@ Phone VARCHAR(12),
 SSNumber VARCHAR(11),
 CONSTRAINT Manager_PK PRIMARY KEY(ManagerID)
 );
+
+
 
 CREATE TABLE Staff(
 StaffID INT NOT NULL AUTO_INCREMENT,
@@ -73,18 +83,22 @@ CONSTRAINT Manager_FK FOREIGN KEY(ManagerID) REFERENCES Manager(ManagerID)
 
 
 
-);
+
 
 CREATE TABLE Room(
 RoomID INT NOT NULL, 
 RoomName VARCHAR(60) NOT NULL, 
 RoomFloor INT NOT NULL,
+Avalability INT NOT NULL,
+
 Smoking BOOL NOT NULL,
 OceanView BOOL NOT NULL,
 Description VARCHAR(70),
 Price DECIMAL NOT NULL,
 CONSTRAINT Books_PK PRIMARY KEY(RoomID)
 );
+
+
 
 
 
