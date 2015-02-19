@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+	<h1>Hotel</h1>
+	<header  class = "menuBar">		
+		<nav>
+			<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="reservation.html">Reservation</a></li>
+			<li class="active"><a href="contact_us.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<br>
+	<h1>Contact Us</h1>
+		
+	<form method="post">
+		<p><label>Question:</label>
+		<input name="question" type="text" size="45"></p>
+		
+		<p><label>Comments:<br></label>
+		<textarea name="comments" rows="4" cols="56"></textarea></p>
+		
+		<p>
+		<input type="submit" value="Submit">
+		<p>
+	</form>
+	
+	
+	
+</body>
+</html>
