@@ -1,4 +1,14 @@
-﻿<!DOCTYPE html>
+﻿<script runat="server">
+Sub submit(Source As Object, e As EventArgs)
+       
+End Sub
+
+Sub clear(Source As Object, e As EventArgs)
+
+End Sub
+</script>
+
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -12,9 +22,9 @@
 	<header  class = "menuBar">				
 		<nav>
 			<ul>
-			<li><a href="index.html">Home</a></li>
-			<li class="active"><a href="reservation.html">Reservation</a></li>
-			<li><a href="contact_us.html">Contact Us</a></li>
+			<li><a href="index.aspx">Home</a></li>
+			<li class="active"><a href="reservation.aspx">Reservation</a></li>
+			<li><a href="contact_us.aspx">Contact Us</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -29,6 +39,7 @@
 	</asp:RadioButtonList>
 	<br>
 	<asp:Button text="Book My Room" OnClick="submit" runat="server"/>
+    <asp:Button OnClick="clear" Text="Clear" runat="server" />
 	</form>
 	
 	

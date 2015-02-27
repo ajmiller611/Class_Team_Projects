@@ -1,13 +1,16 @@
-﻿<script runat="server">
+﻿<%@ Imports System.Data
+    Imports System.Data.SqlClient %>
+<script runat="server">
     Sub Page_Load()
         If Not Page.IsPostBack Then
-           ' Dim db = Database.Open("hotel")
+            Dim sqlConn As New SqlConnection(server=.\SQLEXPRESS;uid=testU;pwd=******;database=test)
+            sqlConn.Open()
         End If
         
     End Sub
     
     Sub submit(sender As Object, e As EventArgs)
-
+        Dim sqlComm As New SqlCommand("SELECT Username FROM Account", sqlConn)
     End Sub
 
     Sub clear(sender As Object, e As EventArgs)
@@ -40,6 +43,14 @@
 	<h1>Create an Account</h1>
 	<h2>Sign up for an account here!</h2>
 	
+
+    <asp:SqlDataSource 
+  ID="SqlDataSource1"
+  runat="server" 
+  ConnectionString="<%$ ConnectionStrings:server=.\SQLEXPRESS;uid=testU;pwd=******;database=test %>"
+  SelectCommand="SELECT Username FROM Account"   />
+
+
     <form runat="server">
     <label>Username: <asp:TextBox ID="username" runat="server" /></label>
         <asp:RequiredFieldValidator ControlToValidate="username" Display="Dynamic" Text="Required" runat="server"/><br />

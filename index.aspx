@@ -12,9 +12,9 @@
     <header class="menuBar"> 
        <nav> 
            <ul> 
-               <li class="active"><a href="index.html">Home</a></li> 
+               <li class="active"><a href="index.aspx">Home</a></li> 
                <li><a href="reservation.aspx">Reservation</a></li> 
-               <li><a href="contact_us.html">Contact Us</a></li> 
+               <li><a href="contact_us.aspx">Contact Us</a></li> 
            </ul> 
        </nav> 
      </header> 
