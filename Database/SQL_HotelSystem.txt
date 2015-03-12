@@ -1,4 +1,4 @@
-﻿CREATE DATABASE Hotel1
+CREATE DATABASE Hotel1
 
 
 
@@ -89,8 +89,8 @@ CREATE TABLE Room(
 RoomID INT NOT NULL, 
 RoomName VARCHAR(60) NOT NULL, 
 RoomFloor INT NOT NULL,
-Avalability INT NOT NULL,
-
+StartDate DATE NOT NULL,
+EndDate DATE NOT NULL,Availability INT NOT NULL,
 Smoking BOOL NOT NULL,
 OceanView BOOL NOT NULL,
 Description VARCHAR(70),
