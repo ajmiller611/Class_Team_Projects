@@ -14,6 +14,7 @@ public class TSP_GA extends JFrame {
 	public TSP_GA() {
 		super("Traveling Salesman GA");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setResizable(false);
 		setSize(800,800);
 		GridBagLayout layout = new GridBagLayout();
 		setLayout(layout);
