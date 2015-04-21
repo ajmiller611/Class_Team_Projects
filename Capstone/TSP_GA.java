@@ -191,7 +191,7 @@ public class TSP_GA extends JFrame {
 		{
 			if (e.getSource() == startButton) {
 				Population pop = new Population(Integer.parseInt(populationSize.getText()), true);
-				System.out.println("Initial distance: " + pop.getFittest().getDistance());
+				//System.out.println("Initial distance: " + pop.getFittest().getDistance());
 				initialDistanceValueLabel.setText(pop.getFittest().getDistance() + "");
 				
 				GA.setMutationRate(Double.parseDouble(mutationRate.getText()));
@@ -210,15 +210,50 @@ public class TSP_GA extends JFrame {
 				mainPanel.add(cityPanel);
 				mainPanel.validate();
 				repaint();
-				System.out.println("Finished");
+				/*System.out.println("Finished");
 				System.out.println("Final distance: " + pop.getFittest().getDistance());
 				System.out.println("Solution:");
-				System.out.println(pop.getFittest());
+				System.out.println(pop.getFittest());*/
 			}
 			
 			if (e.getSource() == addCity) {
-				int xCoord = Integer.parseInt(JOptionPane.showInputDialog(null, "x coordinate:"));
-				int yCoord = Integer.parseInt(JOptionPane.showInputDialog(null, "y coordinate:"));
+				int xCoord = 0;
+				int yCoord = 0;
+				String xCoordString, yCoordString;
+				boolean flag = true;
+				do {
+					try {
+						xCoordString = JOptionPane.showInputDialog(null, "x coordinate:");
+						xCoord = Integer.parseInt(xCoordString);
+						if (xCoord > 200 || xCoord < 0)
+							throw new NumberOutOfRangeException();
+						flag = true;
+					} catch(NumberFormatException err) {
+						JOptionPane.showMessageDialog(null, "Please enter a valid integer that is between 0 and 200");
+						flag = false;					
+					}
+					catch(NumberOutOfRangeException err) {
+						JOptionPane.showMessageDialog(null, "Please enter an integer that is between 0 and 200");
+						flag = false;
+					}
+				} while (flag == false);
+				
+				do {
+					try {
+						yCoordString = JOptionPane.showInputDialog(null, "y coordinate:");
+						yCoord = Integer.parseInt(yCoordString);
+						if (yCoord > 200 || yCoord < 0)
+							throw new NumberOutOfRangeException();
+						flag = true;
+					} catch(NumberFormatException err) {
+						JOptionPane.showMessageDialog(null, "Please enter a valid integer that is between 0 and 200");
+						flag = false;					
+					}
+					catch(NumberOutOfRangeException err) {
+						JOptionPane.showMessageDialog(null, "Please enter an integer that is between 0 and 200");
+						flag = false;
+					}
+				} while (flag == false);
 				
 				City city = new City(xCoord, yCoord);
 				TourManager.addCity(city);
