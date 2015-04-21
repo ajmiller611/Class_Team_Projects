@@ -8,7 +8,7 @@ public class TSP_GA extends JFrame {
 	private JPanel mainPanel, cityPanel, rightPanel, bottomPanel;
 	private JTextField populationSize, mutationRate, maxGen;
 	private JLabel titleLabel, populationSizeLabel, mutationRateLabel, maxGenLabel, initialDistanceLabel, initialDistanceValueLabel, solutionDistanceLabel, solutionDistanceValueLabel, numOfCitiesLabel, numOfCitiesValueLabel;
-	private JButton startButton;
+	private JButton startButton, addCity;
 	JButton[][] grid;
 	
 	public TSP_GA() {
@@ -23,7 +23,7 @@ public class TSP_GA extends JFrame {
 		mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.PAGE_AXIS));
 		mainPanel.setMinimumSize(new Dimension(600, 633));
 		mainPanel.setPreferredSize(new Dimension(600, 633));
-		mainPanel.setBackground(Color.white);
+		mainPanel.setBackground(Color.lightGray);
 		mainPanel.setBorder(BorderFactory.createLineBorder(Color.black));
 		
 		rightPanel = new JPanel();
@@ -35,6 +35,7 @@ public class TSP_GA extends JFrame {
 		rightPanel.setBorder(BorderFactory.createLineBorder(Color.black));
 		
 		bottomPanel = new JPanel();
+		bottomPanel.setLayout(new FlowLayout(FlowLayout.CENTER, 10, 20));
 		bottomPanel.setMinimumSize(new Dimension(600, 166));
 		bottomPanel.setPreferredSize(new Dimension(600, 166));
 		bottomPanel.setBackground(Color.white);
@@ -62,7 +63,7 @@ public class TSP_GA extends JFrame {
 		
 		JPanel test = new JPanel();
 		test.setMaximumSize(new Dimension(600, 116));
-		test.setBackground(Color.white);
+		test.setBackground(Color.lightGray);
 		
 		titleLabel = new JLabel("Traveling Salesman Problem using Genetic Algorithm");
 		test.add(titleLabel);
@@ -75,7 +76,7 @@ public class TSP_GA extends JFrame {
 		
 		populationSize = new JTextField();
 		populationSize.setPreferredSize(new Dimension(100, 25));
-		populationSize.setText("50");
+		populationSize.setText("25");
 		rightPanel.add(populationSize);
 		
 		maxGenLabel = new JLabel("Max Generations:");
@@ -93,6 +94,12 @@ public class TSP_GA extends JFrame {
 		mutationRate.setPreferredSize(new Dimension(100, 25));
 		mutationRate.setText("0.015");
 		rightPanel.add(mutationRate);
+		
+		addCity = new JButton();
+		addCity.setSize(50, 50);
+		addCity.setText("Add City");
+		addCity.addActionListener(handler);
+		rightPanel.add(addCity);
 		
 		startButton = new JButton();
 		startButton.setSize(50, 50);
@@ -207,6 +214,26 @@ public class TSP_GA extends JFrame {
 				System.out.println("Final distance: " + pop.getFittest().getDistance());
 				System.out.println("Solution:");
 				System.out.println(pop.getFittest());
+			}
+			
+			if (e.getSource() == addCity) {
+				int xCoord = Integer.parseInt(JOptionPane.showInputDialog(null, "x coordinate:"));
+				int yCoord = Integer.parseInt(JOptionPane.showInputDialog(null, "y coordinate:"));
+				
+				City city = new City(xCoord, yCoord);
+				TourManager.addCity(city);
+				
+				Tour initialTour = new Tour();
+		        for (int i = 0; i < TourManager.numberOfCities(); i++) {
+		        	initialTour.setCity(i, TourManager.getCity(i));
+		        }
+		        
+		        numOfCitiesValueLabel.setText(TourManager.numberOfCities() + "");
+		        mainPanel.remove(cityPanel);
+		        cityPanel = new drawStartingCities(initialTour);
+		        mainPanel.add(cityPanel);
+		        mainPanel.validate();
+				repaint();
 			}
 		}
 	}
