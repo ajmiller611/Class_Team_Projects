@@ -4,7 +4,8 @@ import java.awt.Graphics;
 
 import javax.swing.*;
 
-public class TSP_GA extends JFrame {
+public class TSP_GA {
+	private JFrame mainFrame;
 	private JPanel mainPanel, cityPanel, rightPanel, bottomPanel;
 	private JTextField populationSize, mutationRate, maxGen;
 	private JLabel titleLabel, populationSizeLabel, mutationRateLabel, maxGenLabel, initialDistanceLabel, initialDistanceValueLabel, solutionDistanceLabel, solutionDistanceValueLabel, numOfCitiesLabel, numOfCitiesValueLabel;
@@ -12,12 +13,12 @@ public class TSP_GA extends JFrame {
 	JButton[][] grid;
 	
 	public TSP_GA() {
-		super("Traveling Salesman GA");
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setResizable(false);
-		setSize(800,800);
+		JFrame mainFrame = new JFrame("Traveling Salesman Genetic Algorithm");
+		mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		mainFrame.setResizable(false);
+		mainFrame.setSize(800,800);
 		GridBagLayout layout = new GridBagLayout();
-		setLayout(layout);
+		mainFrame.setLayout(layout);
 		GridBagConstraints gbc = new GridBagConstraints();
 		
 		mainPanel = new JPanel();
@@ -47,20 +48,20 @@ public class TSP_GA extends JFrame {
 		gbc.gridwidth = 3;
 		gbc.gridheight = 2;
 		//gbc.fill = GridBagConstraints.BOTH;
-		add(mainPanel, gbc);
+		mainFrame.add(mainPanel, gbc);
 		
 		gbc.gridx = 4;
 		gbc.gridy = 1;
 		gbc.gridheight = 2;
 		//gbc.fill = GridBagConstraints.BOTH;
-		add(rightPanel, gbc);
+		mainFrame.add(rightPanel, gbc);
 		
 		gbc.gridx = 0;
 		gbc.gridy = 2;
 		gbc.gridwidth = 3;
 		gbc.weighty = 1.0;
 		//gbc.fill = GridBagConstraints.SOUTH;
-		add(bottomPanel, gbc);
+		mainFrame.add(bottomPanel, gbc);
 		
 		JPanel test = new JPanel();
 		test.setMaximumSize(new Dimension(600, 116));
@@ -178,7 +179,7 @@ public class TSP_GA extends JFrame {
         cityPanel = new drawStartingCities(initialTour);
         mainPanel.add(cityPanel);
 		
-		setVisible(true);
+		mainFrame.setVisible(true);
 	}
 	
 	public static void main(String[] args)
@@ -210,7 +211,7 @@ public class TSP_GA extends JFrame {
 
 				mainPanel.add(cityPanel);
 				mainPanel.validate();
-				repaint();
+				mainFrame.repaint();
 				/*System.out.println("Finished");
 				System.out.println("Final distance: " + pop.getFittest().getDistance());
 				System.out.println("Solution:");
@@ -269,7 +270,7 @@ public class TSP_GA extends JFrame {
 		        cityPanel = new drawStartingCities(initialTour);
 		        mainPanel.add(cityPanel);
 		        mainPanel.validate();
-				repaint();
+				mainFrame.repaint();
 			}
 		}
 	}
