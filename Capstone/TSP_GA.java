@@ -13,7 +13,7 @@ public class TSP_GA {
 	JButton[][] grid;
 	
 	public TSP_GA() {
-		JFrame mainFrame = new JFrame("Traveling Salesman Genetic Algorithm");
+		mainFrame = new JFrame("Traveling Salesman Genetic Algorithm");
 		mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		mainFrame.setResizable(false);
 		mainFrame.setSize(800,800);
