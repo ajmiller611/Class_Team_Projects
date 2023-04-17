@@ -1,0 +1,222 @@
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\obj\Debug\HotelWebApp.csprojResolveAssemblyReference.cache
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\ApplicationInsights.config
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensions.Intercept_x86.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensions.Intercept_x64.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\HotelWebApp.dll.config
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\HotelWebApp.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\HotelWebApp.pdb
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Antlr3.Runtime.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\AspNet.ScriptManager.bootstrap.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\AspNet.ScriptManager.jQuery.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\EntityFramework.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\EntityFramework.SqlServer.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensibility.PerfCollector.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensibility.Web.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.FriendlyUrls.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Diagnostics.Instrumentation.Extensions.Intercept.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Diagnostics.Tracing.EventSource.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Google.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.ScriptManager.MSAjax.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.ScriptManager.WebForms.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Threading.Tasks.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Threading.Tasks.Extensions.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Web.Infrastructure.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Newtonsoft.Json.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Owin.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\System.Web.Optimization.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\System.Web.Providers.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\WebGrease.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.pdb
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensibility.Web.pdb
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensibility.Web.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Diagnostics.Tracing.EventSource.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Threading.Tasks.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Threading.Tasks.Extensions.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\System.Web.Optimization.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Antlr3.Runtime.pdb
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Newtonsoft.Json.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.FriendlyUrls.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\EntityFramework.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\EntityFramework.SqlServer.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\System.Web.Providers.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Google.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\obj\Debug\ApplicationInsights.config
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\obj\Debug\HotelWebApp.dll
+c:\users\andrew\documents\visual studio 2013\Projects\HotelWebApp\HotelWebApp\obj\Debug\HotelWebApp.pdb
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\ApplicationInsights.config
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensions.Intercept_x86.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensions.Intercept_x64.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\HotelWebApp.dll.config
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\HotelWebApp.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\HotelWebApp.pdb
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Antlr3.Runtime.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\EntityFramework.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensibility.PerfCollector.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensibility.Web.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Diagnostics.Instrumentation.Extensions.Intercept.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Threading.Tasks.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Newtonsoft.Json.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Owin.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\System.Web.Optimization.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\System.Web.Providers.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\WebGrease.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.pdb
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensibility.Web.pdb
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensibility.Web.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Threading.Tasks.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\System.Web.Optimization.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Antlr3.Runtime.pdb
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Newtonsoft.Json.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\EntityFramework.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\System.Web.Providers.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\obj\Debug\HotelWebApp.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\obj\Debug\ApplicationInsights.config
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\obj\Debug\HotelWebApp.dll
+C:\Users\Andrew\Desktop\HotelWebApp\HotelWebApp\obj\Debug\HotelWebApp.pdb
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\ApplicationInsights.config
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensions.Intercept_x86.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensions.Intercept_x64.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\HotelWebApp.dll.config
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\HotelWebApp.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\HotelWebApp.pdb
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Antlr3.Runtime.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\EntityFramework.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensibility.PerfCollector.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensibility.Web.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Diagnostics.Instrumentation.Extensions.Intercept.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Threading.Tasks.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Newtonsoft.Json.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Owin.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\System.Web.Optimization.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\System.Web.Providers.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\WebGrease.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.pdb
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensibility.Web.pdb
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.ApplicationInsights.Extensibility.Web.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Threading.Tasks.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\System.Web.Optimization.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Antlr3.Runtime.pdb
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Newtonsoft.Json.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\EntityFramework.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\System.Web.Providers.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\obj\Debug\ApplicationInsights.config
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\obj\Debug\HotelWebApp.dll
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\obj\Debug\HotelWebApp.pdb
+C:\Users\Andrew\Documents\HotelWebApp\HotelWebApp\obj\Debug\HotelWebApp.csprojResolveAssemblyReference.cache
